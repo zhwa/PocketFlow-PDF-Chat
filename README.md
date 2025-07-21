@@ -181,16 +181,15 @@ python tests/test_llm.py       # LLM integration
    - Check `main.py` for port configuration
 
 3. **Memory Issues**
-   - Ensure at least 4GB RAM available
+   - Ensure at least 8GB RAM available
    - Close other memory-intensive applications
 
 ## License
 
-MIT License - See original PocketFlow project for details.
+MIT License
 
 ## Credits
 
 - Built with [PocketFlow](https://github.com/the-pocket/PocketFlow) - 100-line LLM framework
 - Majority of the code came from [Local_Pdf_Chat_RAG](https://github.com/weiwill88/Local_Pdf_Chat_RAG)
-- Converted from a 2,597-line monolithic system to modular architecture  
 - Demonstrates PocketFlow's RAG design pattern in production
