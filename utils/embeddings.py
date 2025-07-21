@@ -23,7 +23,7 @@ def get_embeddings(texts: List[str]) -> List[np.ndarray]:
     """Get embeddings for a list of texts"""
     if not texts:
         return []
-    
+
     model = get_embedding_model()
     embeddings = model.encode(texts, show_progress_bar=False)
     return [np.array(emb, dtype=np.float32) for emb in embeddings]

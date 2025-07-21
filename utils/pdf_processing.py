@@ -10,7 +10,3 @@ def extract_text_from_pdf(filepath: str) -> str:
     with open(filepath, 'rb') as file:
         extract_text_to_fp(file, output)
     return output.getvalue()
-
-if __name__ == "__main__":
-    # Test function
-    print("PDF processing utility loaded")

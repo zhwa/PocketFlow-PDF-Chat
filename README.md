@@ -171,7 +171,7 @@ python tests/test_llm.py       # LLM integration
    ```bash
    # Start Ollama service
    ollama serve
-   
+
    # Install required model
    ollama pull deepseek-r1:1.5b
    ```
