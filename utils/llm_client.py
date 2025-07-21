@@ -4,7 +4,6 @@ LLM client utilities for both Ollama and SiliconFlow
 import os
 import json
 import requests
-from typing import Union, Tuple
 import logging
 
 logger = logging.getLogger(__name__)

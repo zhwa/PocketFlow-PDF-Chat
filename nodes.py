@@ -7,13 +7,10 @@ import numpy as np
 import faiss
 import time
 import logging
-from io import StringIO
-from datetime import datetime
-
 from pocketflow import Node, BatchNode
 from utils.pdf_processing import extract_text_from_pdf
 from utils.chunking import create_text_chunks  
-from utils.embeddings import get_embedding_model, get_embeddings
+from utils.embeddings import get_embeddings
 from utils.bm25_manager import BM25IndexManager
 from utils.web_search import search_web
 from utils.llm_client import call_llm

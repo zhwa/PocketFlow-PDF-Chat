@@ -191,6 +191,6 @@ MIT License - See original PocketFlow project for details.
 ## Credits
 
 - Built with [PocketFlow](https://github.com/the-pocket/PocketFlow) - 100-line LLM framework
-- Major code come from [Local_Pdf_Chat_RAG](https://github.com/weiwill88/Local_Pdf_Chat_RAG)
+- Majority of the code came from [Local_Pdf_Chat_RAG](https://github.com/weiwill88/Local_Pdf_Chat_RAG)
 - Converted from a 2,597-line monolithic system to modular architecture  
 - Demonstrates PocketFlow's RAG design pattern in production

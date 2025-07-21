@@ -2,7 +2,7 @@
 Hybrid search utilities for merging semantic and BM25 results
 """
 import logging
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Tuple
 
 logger = logging.getLogger(__name__)
 

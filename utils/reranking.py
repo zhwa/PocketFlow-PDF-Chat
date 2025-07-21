@@ -3,7 +3,7 @@ Result reranking utilities using cross-encoder and LLM
 """
 import threading
 import logging
-from typing import List, Tuple, Dict, Any
+from typing import List, Tuple, Dict
 from sentence_transformers import CrossEncoder
 
 logger = logging.getLogger(__name__)
