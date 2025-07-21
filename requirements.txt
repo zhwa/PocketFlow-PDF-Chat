@@ -1,0 +1,34 @@
+# Core PocketFlow dependencies
+# sys and os are built-in modules
+
+# PDF processing
+pdfminer.six>=20221105
+
+# Text processing and chunking
+langchain-text-splitters>=0.2.0
+
+# Embeddings and semantic search
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# Keyword search
+rank-bm25>=0.2.2
+jieba>=0.42.1
+
+# Web interface
+gradio>=3.50.0
+
+# HTTP requests and APIs
+requests>=2.31.0
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# Logging and utilities
+# logging is built-in module
+
+# Optional dependencies for advanced features
+# fastapi>=0.104.1  # For REST API server
+# uvicorn>=0.23.2   # For ASGI server
+# python-multipart>=0.0.6  # For file uploads in FastAPI
